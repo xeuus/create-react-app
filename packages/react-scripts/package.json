@@ -1,5 +1,5 @@
 {
-  "name": "react-scripts",
+  "name": "soupe-react-scripts",
   "version": "3.4.1",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
@@ -28,6 +28,9 @@
   },
   "types": "./lib/react-app.d.ts",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/plugin-transform-classes": "^7.9.5",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
     "@babel/core": "7.9.0",
     "@pmmmwh/react-refresh-webpack-plugin": "0.3.0-beta.1",
     "@svgr/webpack": "4.3.3",
